@@ -1,12 +1,6 @@
-.open-sans-normal {
-    font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
-    
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
-  *{
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", serif; */
+*{
     padding: 0;
     margin: 0;
   }
@@ -16,7 +10,7 @@
     align-items: center; 
     color: white;
     
-    padding: 5px 10px;
+    padding: 10px 15px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -51,6 +45,7 @@ nav {
     width: 1290px;
     gap: 25px;
     
+    
 }
 .banner-content {
     width: 600px;
@@ -79,15 +74,15 @@ nav {
 
 
 .section-title {
-    font-size: 35px;
+    font-size: 40px;
     text-align: justify;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 }
 .section-description {
-    font-size: 15px;
+    font-size: 20px;
     text-align: justify;
-    padding: 20px;
+    padding: 10px;
     
 
     
@@ -151,4 +146,50 @@ nav {
 }
 .btn-bg-3 {
     background-color: rgb(209, 68, 12);
+}
+
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1260px;
+    height: 400;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.06);
+    gap: 20px;
+    width: 98%;
+    margin: 67px auto;
+    
+}
+
+
+.home-img {
+    max-width: 400px;
+    float: left;
+    border-radius: 20px;
+    box-shadow: black;
+    margin :20px;
+
+
+}
+.home-icon{
+    padding: 20px;
+}
+.datetime {
+    font-size: 15px ;
+}
+.home-text {
+    gap: 20px;
+    font-family: Work Sans;
+    text-align: left;
+}
+.home-title {
+    font-size: 40px;
+    padding: 5px;
+}
+.home-description {
+    font-size: 20px;
+    padding: 5px;
 }
