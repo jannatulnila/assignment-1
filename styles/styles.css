@@ -81,11 +81,23 @@ nav {
     margin: 0 auto;
     padding: 10px;
 }
+.section-title-2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    }
+
 .section-description {
     font-size: 20px;
     text-align: justify;
     padding: 10px;
-    
+}
+.section-description-2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px; 
+}  
 
     
     
@@ -195,6 +207,7 @@ nav {
 .home-description {
     font-size: 20px;
     padding: 5px;
+    
 }
  
 
