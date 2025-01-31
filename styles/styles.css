@@ -99,12 +99,11 @@ nav {
     padding: 10px; 
 }  
 
-    
-    
-}
 .about-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 20px;
     
 
     
@@ -267,7 +266,7 @@ footer input[type="button"]{
 }
 .form {
     display: flex;
-    width: 800px;
+    width: 400px;
     overflow: hidden;
     justify-content: center;
     text-align: justify;
@@ -287,6 +286,28 @@ footer input[type="email"]{
     color: black;
     cursor: pointer;
 }
-
+.quote-section {
+   background-color: white;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-repeat: 1250px;
+    height: 200px;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    margin: 20px; 
+}
+.quote-description {
+    font-size: 20px;
+    padding: 20px;
+}
+.quote-title {
+    font-size: 40px;
+    padding: 20px;
+}
+.quote-subtitle{
+    font-size: 20px;
+    padding: 20px;
+}
 
 
